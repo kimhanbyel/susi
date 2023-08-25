@@ -1,4 +1,4 @@
-import { client } from "@/util/database";
+import client from "@/util/database";
 
 export default async function Idol(props) {
   const group = decodeURI(props.params.group);
